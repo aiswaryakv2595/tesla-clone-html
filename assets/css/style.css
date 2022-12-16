@@ -79,7 +79,9 @@ body{
  
   transition: opacity 0.7s ease-in;
 }
-
+#btn-shopnow{
+  width: 50%;
+}
 .fadeOut { opacity: 0; }
 .fadeIn { opacity: 1; }
 .inView {
@@ -87,6 +89,7 @@ body{
   -webkit-transform: translateY(0px) rotate(0deg) translateZ(0);
   transform: translateY(0px) rotate(0deg) translateZ(0);
 }
+
   @media only screen and (max-width: 1200px) {
     #nav_hide{
         display: none;
@@ -101,6 +104,11 @@ body{
         display: block;
     }
    
+}
+@media only screen and (max-width: 600px) {
+  #btn-shopnow{
+    width: 100%;
+  }
 }
 
 
